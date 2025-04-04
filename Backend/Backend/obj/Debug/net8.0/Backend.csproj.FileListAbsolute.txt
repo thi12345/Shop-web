@@ -148,3 +148,7 @@ C:\Users\thing\OneDrive\Desktop\Shop-web\Backend\Backend\bin\Debug\net8.0\runtim
 C:\Users\thing\OneDrive\Desktop\Shop-web\Backend\Backend\bin\Debug\net8.0\Data\SeedData\brands.json
 C:\Users\thing\OneDrive\Desktop\Shop-web\Backend\Backend\bin\Debug\net8.0\Data\SeedData\products.json
 C:\Users\thing\OneDrive\Desktop\Shop-web\Backend\Backend\bin\Debug\net8.0\Data\SeedData\types.json
+C:\Users\thing\OneDrive\Desktop\Shop-web\Backend\Backend\obj\Debug\net8.0\Backend.sourcelink.json
+C:\Users\thing\OneDrive\Desktop\Shop-web\Backend\Backend\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\thing\OneDrive\Desktop\Shop-web\Backend\Backend\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\thing\OneDrive\Desktop\Shop-web\Backend\Backend\bin\Debug\net8.0\Backend.staticwebassets.runtime.json
