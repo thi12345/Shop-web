@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thing\\onedrive\\desktop\\shop-web\\backend\\backend\\controllers\\buggycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\buggycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thing\\onedrive\\desktop\\shop-web\\backend\\backend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thing\\onedrive\\desktop\\shop-web\\backend\\backend\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thing\\onedrive\\desktop\\shop-web\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thing\\onedrive\\desktop\\shop-web\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thing\\onedrive\\desktop\\shop-web\\backend\\backend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,58 +40,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MappingProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Helpers\\MappingProfiles.cs",
-              "RelativeDocumentMoniker": "Backend\\Helpers\\MappingProfiles.cs",
-              "ToolTip": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Helpers\\MappingProfiles.cs",
-              "RelativeToolTip": "Backend\\Helpers\\MappingProfiles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T09:50:11.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductUrlResolver.cs",
-              "DocumentMoniker": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Helpers\\ProductUrlResolver.cs",
-              "RelativeDocumentMoniker": "Backend\\Helpers\\ProductUrlResolver.cs",
-              "ToolTip": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Helpers\\ProductUrlResolver.cs",
-              "RelativeToolTip": "Backend\\Helpers\\ProductUrlResolver.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwBoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T09:42:22.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\appsettings.json",
-              "RelativeDocumentMoniker": "Backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\appsettings.json",
-              "RelativeToolTip": "Backend\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-04T09:41:00.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Program.cs",
-              "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAADQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T08:54:54.678Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -98,15 +54,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "BuggyController.cs",
+              "DocumentMoniker": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\BuggyController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\BuggyController.cs",
+              "ToolTip": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\BuggyController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\BuggyController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAmwCkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T12:37:14.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\BaseApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T12:33:58.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\appsettings.json",
+              "RelativeToolTip": "Backend\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-04T09:41:00.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Backend\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAuwCYAAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T08:04:50.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductUrlResolver.cs",
+              "DocumentMoniker": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Helpers\\ProductUrlResolver.cs",
+              "RelativeDocumentMoniker": "Backend\\Helpers\\ProductUrlResolver.cs",
+              "ToolTip": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Helpers\\ProductUrlResolver.cs",
+              "RelativeToolTip": "Backend\\Helpers\\ProductUrlResolver.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:42:22.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Helpers\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "Backend\\Helpers\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Helpers\\MappingProfiles.cs",
+              "RelativeToolTip": "Backend\\Helpers\\MappingProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:50:11.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\thing\\OneDrive\\Desktop\\Shop-web\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAADQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:54:54.678Z",
               "EditorCaption": ""
             }
           ]
