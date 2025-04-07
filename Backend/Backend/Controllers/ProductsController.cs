@@ -2,6 +2,7 @@
 using Backend.Data;
 using Backend.Dtos;
 using Backend.Entitities;
+using Backend.Error;
 using Backend.Interfaces;
 using Backend.Specifications;
 using Microsoft.AspNetCore.Mvc;
@@ -39,6 +40,8 @@ public class ProductsController : BaseApiController
             IReadOnlyList<ProductReturnDto>>(products));
     }
     [HttpGet("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
     public async Task<ActionResult<ProductReturnDto>> GetProduct(int id)
     {
         var spec = new ProductWithSpecification(id);
@@ -56,6 +59,7 @@ public class ProductsController : BaseApiController
             ProductType = product.ProductType.Name
 
         };*/
+        if (product == null) return NotFound(new ApiResponse(404));
         return _mapper.Map<Product, ProductReturnDto>(product);
     }
     [HttpGet("brands")]

@@ -1,7 +1,7 @@
 using Backend.Data;
-using Backend.Data.Repositories;
+using Backend.Extensions;
 using Backend.Helpers;
-using Backend.Interfaces;
+using Backend.Middleware;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,20 +11,24 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
 builder.Services.AddCors(option =>
     option.AddDefaultPolicy( policy =>
         policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()
     )
 );
+
+//builder.Services.AddScoped<IProductRepository, ProductRepository>();
+//builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddApplicationService();
+builder.Services.AddAutoMapper(typeof(MappingProfiles));
 builder.Services.AddDbContext<StoreContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Shopweb"));
 }
     );
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-builder.Services.AddAutoMapper(typeof(MappingProfiles));
+
+builder.Services.AddSwaggerDocumentation();
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
@@ -43,14 +47,14 @@ using (var scope = app.Services.CreateScope())
     }
 }
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwaggerDocumentation();
+app.UseMiddleware<ExceptionMiddleware>();
+app.UseStatusCodePagesWithReExecute("/errors/{0}");
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllers();

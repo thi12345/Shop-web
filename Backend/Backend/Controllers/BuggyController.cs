@@ -1,4 +1,5 @@
 ﻿using Backend.Data;
+using Backend.Error;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,7 +21,7 @@ namespace Backend.Controllers
             var thing = _context.Products.Find(42);
             if(thing == null)
             {
-                return NotFound();
+                return NotFound(new ApiResponse(404));
             }
             return Ok();
         }
@@ -34,7 +35,7 @@ namespace Backend.Controllers
         [HttpGet("badrequest")]
         public ActionResult GetBadRequest()
         {
-            return BadRequest();
+            return BadRequest(new ApiResponse(400));
         }
         [HttpGet("badrequest/{id}")]
         public ActionResult GetNotFoundRequest(int id)
