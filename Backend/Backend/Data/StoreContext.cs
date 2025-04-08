@@ -17,6 +17,9 @@ namespace Backend.Data
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            //if (Database.ProviderName == "Microsoft.EntityFramework.SqlServer")
+           
         }
         #endregion DbSet
     }

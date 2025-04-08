@@ -31,14 +31,17 @@ public class ProductsController : BaseApiController
     }
 
     [HttpGet]
-    public async Task<ActionResult<IReadOnlyList<ProductReturnDto>>> GetProducts()
+    public async Task<ActionResult<IReadOnlyList<ProductReturnDto>>> GetProducts(
+        string? sort, int? brandId, int? typeId)
     {
-        var spec = new ProductWithSpecification();
+        var spec = new ProductWithSpecification(sort, brandId, typeId);
+
         var products = await _productRepo.ListAsync(spec);
         return Ok(
             _mapper.Map<IReadOnlyList<Product>, 
             IReadOnlyList<ProductReturnDto>>(products));
     }
+
     [HttpGet("{id}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
