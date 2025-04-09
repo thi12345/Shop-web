@@ -3,6 +3,7 @@ using Backend.Data;
 using Backend.Dtos;
 using Backend.Entitities;
 using Backend.Error;
+using Backend.Helpers;
 using Backend.Interfaces;
 using Backend.Specifications;
 using Microsoft.AspNetCore.Mvc;
@@ -31,15 +32,17 @@ public class ProductsController : BaseApiController
     }
 
     [HttpGet]
-    public async Task<ActionResult<IReadOnlyList<ProductReturnDto>>> GetProducts(
-        string? sort, int? brandId, int? typeId)
+    public async Task<ActionResult<Pagination<ProductReturnDto>>> GetProducts(
+        [FromQuery] ProductSpecParams productParams)
     {
-        var spec = new ProductWithSpecification(sort, brandId, typeId);
+        var spec = new ProductWithSpecification(productParams);
 
+        var countSpec = new ProductsWithFiltersForCountSpecification(productParams);
+        var totalItems = await _productRepo.CountAsync(countSpec);
         var products = await _productRepo.ListAsync(spec);
-        return Ok(
-            _mapper.Map<IReadOnlyList<Product>, 
-            IReadOnlyList<ProductReturnDto>>(products));
+        var data = _mapper.Map<IReadOnlyList<ProductReturnDto>>(products);
+        return Ok(new Pagination<ProductReturnDto>(productParams.PageIndex,
+            productParams.PageSize, totalItems,data));
     }
 
     [HttpGet("{id}")]

@@ -3,40 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\data\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\data\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\specifications\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\specifications\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ProductSpecParams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Specifications\\ProductSpecParams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\specifications\\productwithspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\specifications\\productwithspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\data\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\data\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\specifications\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\specifications\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\data\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\data\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,16 +62,20 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|c:\\users\\thi\\desktop\\shop-web\\backend\\backend\\error\\apivalidationerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15B34BA7-8EA6-40AF-AFD8-170E314D274A}|Backend\\Backend.csproj|solutionrelative:backend\\error\\apivalidationerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ProductsWithFiltersForCountSpecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Specifications\\ProductsWithFiltersForCountSpecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Helpers\\Pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Helpers\\Pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,21 +85,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StoreContext.cs",
-              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\StoreContext.cs",
-              "RelativeDocumentMoniker": "Backend\\Data\\StoreContext.cs",
-              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\StoreContext.cs",
-              "RelativeToolTip": "Backend\\Data\\StoreContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T06:20:54.048Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -94,59 +97,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductWithSpecification.cs",
-              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ProductWithSpecification.cs",
-              "RelativeDocumentMoniker": "Backend\\Specifications\\ProductWithSpecification.cs",
-              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ProductWithSpecification.cs",
-              "RelativeToolTip": "Backend\\Specifications\\ProductWithSpecification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Backend\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:52:29.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T08:46:44.473Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SpecificationEvaluator.cs",
-              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\SpecificationEvaluator.cs",
-              "RelativeDocumentMoniker": "Backend\\Data\\SpecificationEvaluator.cs",
-              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\SpecificationEvaluator.cs",
-              "RelativeToolTip": "Backend\\Data\\SpecificationEvaluator.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAA+AAAAAAAAAA==",
+              "Title": "ProductSpecParams.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ProductSpecParams.cs",
+              "RelativeDocumentMoniker": "Backend\\Specifications\\ProductSpecParams.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ProductSpecParams.cs",
+              "RelativeToolTip": "Backend\\Specifications\\ProductSpecParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:50:36.369Z",
+              "WhenOpened": "2025-04-09T08:41:31.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
+              "Title": "ProductsWithFiltersForCountSpecification.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ProductsWithFiltersForCountSpecification.cs",
+              "RelativeDocumentMoniker": "Backend\\Specifications\\ProductsWithFiltersForCountSpecification.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ProductsWithFiltersForCountSpecification.cs",
+              "RelativeToolTip": "Backend\\Specifications\\ProductsWithFiltersForCountSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T08:44:42.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Helpers\\Pagination.cs",
+              "RelativeDocumentMoniker": "Backend\\Helpers\\Pagination.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Helpers\\Pagination.cs",
+              "RelativeToolTip": "Backend\\Helpers\\Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T08:39:39.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BaseSpecification.cs",
               "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\BaseSpecification.cs",
               "RelativeDocumentMoniker": "Backend\\Specifications\\BaseSpecification.cs",
               "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\BaseSpecification.cs",
               "RelativeToolTip": "Backend\\Specifications\\BaseSpecification.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAYwDAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAvwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:46:50.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T20:46:50.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAtwCMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:07:17.849Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ISpecification.cs",
-              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ISpecification.cs",
-              "RelativeDocumentMoniker": "Backend\\Specifications\\ISpecification.cs",
-              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ISpecification.cs",
-              "RelativeToolTip": "Backend\\Specifications\\ISpecification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Data\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Backend\\Data\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIAwwBoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:45:52.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T16:28:48.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Data\\Repositories\\ProductRepository.cs",
@@ -154,38 +190,83 @@
               "RelativeToolTip": "Backend\\Data\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:43:40.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T20:43:40.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAD4vyIAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ISpecification.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ISpecification.cs",
+              "RelativeDocumentMoniker": "Backend\\Specifications\\ISpecification.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ISpecification.cs",
+              "RelativeToolTip": "Backend\\Specifications\\ISpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T18:07:17.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T20:45:52.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductWithSpecification.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ProductWithSpecification.cs",
+              "RelativeDocumentMoniker": "Backend\\Specifications\\ProductWithSpecification.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Specifications\\ProductWithSpecification.cs",
+              "RelativeToolTip": "Backend\\Specifications\\ProductWithSpecification.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:52:29.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SpecificationEvaluator.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\SpecificationEvaluator.cs",
+              "RelativeDocumentMoniker": "Backend\\Data\\SpecificationEvaluator.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\SpecificationEvaluator.cs",
+              "RelativeToolTip": "Backend\\Data\\SpecificationEvaluator.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:50:36.369Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Backend\\Data\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Backend\\Data\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAwBUAAAApAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T16:28:48.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T11:29:34.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\ErrorController.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\ErrorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:33:29.104Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "StoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\StoreContext.cs",
+              "RelativeDocumentMoniker": "Backend\\Data\\StoreContext.cs",
+              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Data\\StoreContext.cs",
+              "RelativeToolTip": "Backend\\Data\\StoreContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:20:54.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ApplicationServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Extensions\\ApplicationServiceExtensions.cs",
               "RelativeDocumentMoniker": "Backend\\Extensions\\ApplicationServiceExtensions.cs",
@@ -197,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "SwaggerServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Extensions\\SwaggerServiceExtensions.cs",
               "RelativeDocumentMoniker": "Backend\\Extensions\\SwaggerServiceExtensions.cs",
@@ -209,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -221,19 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Program.cs",
-              "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T11:29:34.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "BaseApiController.cs",
               "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\BaseApiController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\BaseApiController.cs",
@@ -245,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ApiValidationErrorResponse.cs",
               "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Error\\ApiValidationErrorResponse.cs",
               "RelativeDocumentMoniker": "Backend\\Error\\ApiValidationErrorResponse.cs",
@@ -254,18 +323,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T12:36:52.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ErrorController.cs",
-              "DocumentMoniker": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\ErrorController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\ErrorController.cs",
-              "ToolTip": "C:\\Users\\Thi\\Desktop\\Shop-web\\Backend\\Backend\\Controllers\\ErrorController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\ErrorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T11:33:29.104Z"
             }
           ]
         }

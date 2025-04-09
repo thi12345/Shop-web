@@ -28,7 +28,7 @@ namespace Backend.Specifications
 
         public int Skip { get; private set; }
 
-        public bool IsPagingEnabled { get; private set; };
+        public bool IsPagingEnabled { get; private set; }
 
         protected void AddInclude(Expression<Func<T, object>> includeExpression)
         {
