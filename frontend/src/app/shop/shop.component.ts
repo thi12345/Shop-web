@@ -10,16 +10,18 @@ import { ShopParams } from '../shared/models/shopParams';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { PagingHeaderComponent } from '../shared/components/paging-header/paging-header.component';
 import { PagerComponent } from '../shared/components/pager/pager.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @Component({
   selector: 'app-shop',
   standalone: true,
   imports: [
-    CommonModule, 
+    CommonModule,
     ProductItemComponent,
     PaginationModule,
     PagingHeaderComponent,
-    PagerComponent
+    PagerComponent,
+    ProductDetailsComponent
   ],
   templateUrl: './shop.component.html',
   styleUrl: './shop.component.css'
@@ -94,7 +96,7 @@ export class ShopComponent implements OnInit {
       this.shopParams.pageNumber = event;
       this.getProducts();
     }
-    
+
   }
   onSearch(){
     this.shopParams.search = this.searchTerm.nativeElement.value;

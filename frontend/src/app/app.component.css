@@ -1,3 +1,6 @@
 .container{
     margin-top: 140px;
 }
+.breadcrumb-item:first-child::before {
+  content: none !important;
+}
