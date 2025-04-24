@@ -39,16 +39,18 @@ import { catchError, throwError } from 'rxjs';
 export const errorInterceptor: HttpInterceptorFn = (req, next) => {
   const router = inject(Router);
   const zone = inject(NgZone);
-  
+
   return next(req).pipe(
     catchError(error => {
-      console.log('reeeeeeeeeeeeeeeeeeeeeeee');
+
       if(error.status === 400){
       }
       if (error.status === 404) {
+        console.log('errorrrrr 404');
          router.navigateByUrl('/notfound');
       }
       if (error.status === 500) {
+        console.log('errorrrrr 500');
         router.navigateByUrl('/server-error');
       }
       return throwError(() => error);

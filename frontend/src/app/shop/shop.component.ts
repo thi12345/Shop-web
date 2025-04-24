@@ -27,7 +27,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
   styleUrl: './shop.component.css'
 })
 export class ShopComponent implements OnInit {
-  @ViewChild('search', {static: true}) searchTerm!: ElementRef;
+  @ViewChild('search', {static: false}) searchTerm!: ElementRef;
   products!: IProduct[] ;
   brands!: IBrand[];
   types!: IType[];

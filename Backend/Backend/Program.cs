@@ -1,11 +1,14 @@
 using Backend.Data;
+using Backend.Data.Identity;
+using Backend.Entitities.Identity;
 using Backend.Extensions;
 using Backend.Helpers;
 using Backend.Middleware;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -20,14 +23,24 @@ builder.Services.AddCors(option =>
 
 //builder.Services.AddScoped<IProductRepository, ProductRepository>();
 //builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-builder.Services.AddApplicationService();
+builder.Services.AddApplicationServices();
 builder.Services.AddAutoMapper(typeof(MappingProfiles));
 builder.Services.AddDbContext<StoreContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Shopweb"));
-}
-    );
+});
+builder.Services.AddDbContext<AppIdentityDbContext>( x => { 
+    x.UseSqlServer(builder.Configuration.GetConnectionString("Shopweb"));
+});
+builder.Services.AddSingleton<IConnectionMultiplexer>(
+    c =>
+    {
+        var configuration = ConfigurationOptions
+        .Parse(builder.Configuration.GetConnectionString("Redis"), true);
+        return ConnectionMultiplexer.Connect(configuration);
+    });
 
+builder.Services.AddIdentityServices(builder.Configuration);
 builder.Services.AddSwaggerDocumentation();
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
@@ -39,6 +52,11 @@ using (var scope = app.Services.CreateScope())
         var context = services.GetRequiredService<StoreContext>();
         await context.Database.MigrateAsync();
         await StoreContextSeed.SeedAsync(context, loggerFactory);
+
+        var userManager = services.GetRequiredService<UserManager<AppUser>>();
+        var identityContext = services.GetRequiredService<AppIdentityDbContext>();
+        await identityContext.Database.MigrateAsync();
+        await AppIdentityDbContextSeed.SeedUsersAsync(userManager);
     }
     catch (Exception ex)
     {
@@ -57,6 +75,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseCors();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

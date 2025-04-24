@@ -1,15 +1,18 @@
 ﻿using Backend.Data.Repositories;
 using Backend.Error;
 using Backend.Interfaces;
+using Backend.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.Extensions
 {
     public static class ApplicationServiceExtensions
     {
-        public static IServiceCollection AddApplicationService(this IServiceCollection services) 
+        public static IServiceCollection AddApplicationServices(this IServiceCollection services) 
         {
+            services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.Configure<ApiBehaviorOptions>(options =>
             {

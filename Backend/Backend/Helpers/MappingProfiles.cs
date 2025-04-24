@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Backend.Dtos;
 using Backend.Entitities;
+using Backend.Entitities.Identity;
 
 namespace Backend.Helpers
 {
@@ -15,6 +16,9 @@ namespace Backend.Helpers
                 o => o.MapFrom( s => s.ProductType.Name))
                 .ForMember(d => d.PictureUrl,
                 o => o.MapFrom<ProductUrlResolver>());
+            CreateMap<Address, AddressDto>().ReverseMap();
+            CreateMap<CustomerBasketDto, CustomerBasket>();
+            CreateMap<BasketItemDto, BasketItem>();
         }
     }
 }

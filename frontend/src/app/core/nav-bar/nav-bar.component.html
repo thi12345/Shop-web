@@ -9,11 +9,16 @@ bg-white border-bottom shadow-sm fixed-top">
       <a class="p-2 text-dark  link-body-emphasis" [routerLink]="['/test-error']" routerLinkActive="active">Error</a>
     </nav>
     <div class="d-flex align-items-center">
-      <a class="position-relative">
+      <a routerLink="/basket" class="position-relative">
         <i class="fa fa-shopping-cart fa-2x me-5 text-dark"></i>
-        <div class="cart-no">5</div>
+        <div *ngIf="(basket$ | async)" class="cart-no">{{(basket$ | async)?.items?.length}}</div>
       </a>
-      <a class="btn btn-outline-secondary text-decoration-none me-2" href="#">Login</a>
-      <a class="btn btn-outline-secondary text-decoration-none me-3" href="#">Sign up</a>
+      <ng-container *ngIf="(currentUser$ | async) === null">
+        <a routerLink="/account/login" class="btn btn-outline-secondary text-decoration-none me-2">Login</a>
+        <a routerLink="/account/register" class="btn btn-outline-secondary text-decoration-none me-3" href="#">Sign up</a>
+      </ng-container>
+      <ng-container *ngIf="(currentUser$ | async)">
+        <a>Welcome {{(currentUser$ | async)?.displayName}}</a>
+      </ng-container>
     </div>
   </div>
