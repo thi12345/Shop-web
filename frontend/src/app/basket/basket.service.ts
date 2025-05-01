@@ -1,4 +1,4 @@
-import { Basket, IBasket, IBasketItem, IbasketTotals } from './../shared/models/basket';
+import { Basket, IBasket, IBasketItem, IBasketTotals } from './../shared/models/basket';
 import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { HttpClient } from '@angular/common/http';
@@ -12,7 +12,7 @@ export class BasketService {
   baseUrl= environment.apiUrl;
   private basketSource = new BehaviorSubject<IBasket | null>(null);
   basket$ = this.basketSource.asObservable();
-  private basketTotalSource= new BehaviorSubject<IbasketTotals | null>(null);
+  private basketTotalSource= new BehaviorSubject<IBasketTotals | null>(null);
   basketTotal$ = this.basketTotalSource.asObservable();
 
   constructor(private http: HttpClient) { }

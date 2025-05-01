@@ -8,6 +8,8 @@ import { ServerErrorComponent } from './core/server-error/server-error.component
 import { NotFoundComponent } from './core/not-found/not-found.component';
 import { LoginComponent } from './account/login/login.component';
 import { RegisterComponent } from './account/register/register.component';
+import { authGuard } from './core/guards/auth.guard';
+import { skip } from 'rxjs';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, data: { breadcrumb: 'Home' } },
@@ -48,13 +50,15 @@ export const routes: Routes = [
       //       .then(m => m.ProductDetailsComponent),
       //   data: { breadcrumb: { alias: 'productDetails' } }
       // }
-    ]
+    ],
+
 
 
   },
   {
     path: 'checkout',
-    data: { breadcrumb: 'Checkout' },
+    canActivate: [authGuard],
+    data: { breadcrumb: {skip: true} },
     children: [
       {
         path: '',

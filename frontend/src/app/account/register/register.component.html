@@ -1,1 +1,60 @@
-<p>register works!</p>
+<div class="d-flex justify-content-center mt-5">
+    <div class="col-3">
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+            <div class="text-center mb-4">
+                <h1 class="h3 mb-3 font-weight-normal">Register</h1>
+            </div>
+
+            <div class="form-label-group">
+                <input formControlName="displayName" type="text" id="displayName" class="form-control" placeholder="display Name">
+                <label for="displayName">Display name</label>
+              </div>
+              <span class="text-danger" 
+              *ngIf="registerForm.get('displayName')?.invalid &&
+              registerForm.get('displayName')?.touched &&
+              registerForm.get('displayName')?.errors?.['required']
+              ">Display Name is required</span>
+
+
+            <div class="form-label-group">
+                <input formControlName="email" type="email" id="inputEmail" class="form-control" placeholder="Email Address">
+                <label for="inputEmail">Email address</label>
+            </div>
+            <span class="text-danger" 
+            *ngIf="registerForm.get('email')?.invalid &&
+            registerForm.get('email')?.touched &&
+            registerForm.get('email')?.errors?.['required']
+            ">Email is required</span>
+            <span class="text-danger" 
+            *ngIf="registerForm.get('email')?.invalid &&
+            registerForm.get('email')?.touched &&
+            registerForm.get('email')?.errors?.['pattern']
+            ">Invalid email address</span>
+            <span class="text-danger" 
+            *ngIf="registerForm.get('email')?.touched && 
+            registerForm.get('email')?.errors?.['emailExists']
+            ">Email already exists</span>
+
+            <div class="form-label-group">
+                <input formControlName="password" type="password" id="inputPassword" class="form-control" placeholder="Password">
+                <label for="inputPassword">Password</label>
+            </div>
+            <span class="text-danger" 
+            *ngIf="registerForm.get('password')?.invalid &&
+            registerForm.get('password')?.touched &&
+            registerForm.get('password')?.errors?.['required']
+            ">Passowrd is required</span>
+
+            <button
+                [disabled]="registerForm.invalid"
+                class="btn btn-lg btn-primary w-100"
+                type="submit"
+            >
+                Register
+            </button>
+        </form>
+        
+    </div>
+    
+
+</div>
