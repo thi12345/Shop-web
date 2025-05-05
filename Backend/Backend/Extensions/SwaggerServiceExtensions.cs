@@ -42,7 +42,7 @@ namespace Backend.Extensions
          
         
             app.UseSwagger();
-            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "SkiNet API v1"); });
+            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "ShopApp API v1"); });
             return app;
         }
     }

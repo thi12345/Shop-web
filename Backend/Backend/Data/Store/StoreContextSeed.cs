@@ -1,7 +1,8 @@
 ﻿using Backend.Entitities;
+using Backend.Entitities.OrderAggregate;
 using System.Text.Json;
 
-namespace Backend.Data;
+namespace Backend.Data.Store;
 
 public class StoreContextSeed
 {
@@ -15,7 +16,7 @@ public class StoreContextSeed
             {
                 Console.WriteLine("Add Brands");
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(),
-                    "Data" ,"SeedData", "brands.json");
+                    "Data", "SeedData", "brands.json");
                 var brandsData = File.ReadAllText(filePath);
                 var brands = JsonSerializer.Deserialize<List<ProductBrand>>(brandsData);
                 foreach (var item in brands)
@@ -28,7 +29,7 @@ public class StoreContextSeed
             if (!context.ProductTypes.Any())
             {
                 Console.WriteLine("Add Types");
-                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Data" ,
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Data",
                     "SeedData", "types.json");
                 var typesData = File.ReadAllText(filePath);
                 var types = JsonSerializer.Deserialize<List<ProductType>>(typesData);
@@ -54,13 +55,29 @@ public class StoreContextSeed
                 }
                 await context.SaveChangesAsync();
             }
+
+            if (!context.DeliveryMethods.Any())
+            {
+                Console.WriteLine("Add Delivery Method");
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Data",
+                    "SeedData", "delivery.json");
+
+                var dmData = File.ReadAllText(filePath);
+                var methods = JsonSerializer.Deserialize<List<DeliveryMethod>>(dmData);
+                foreach (var item in methods)
+                {
+                    item.Id = 0;
+                    context.DeliveryMethods.Add(item);
+                }
+                await context.SaveChangesAsync();
+            }
         }
         catch (Exception ex)
         {
             Console.WriteLine("Skip Database");
             var logger = loggerFactory.CreateLogger<StoreContextSeed>();
-            logger.LogError(ex.Message);    
+            logger.LogError(ex.Message);
         }
     }
-    
+
 }

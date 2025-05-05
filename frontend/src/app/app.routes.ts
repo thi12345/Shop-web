@@ -58,7 +58,7 @@ export const routes: Routes = [
   {
     path: 'checkout',
     canActivate: [authGuard],
-    data: { breadcrumb: {skip: true} },
+    data: { breadcrumb: 'Checkout' },
     children: [
       {
         path: '',
@@ -99,8 +99,6 @@ export const routes: Routes = [
             .then(m => m.RegisterComponent),
       }
     ]
-
-
   },
 
   {path: '**', redirectTo: 'notfound', pathMatch: 'full'}

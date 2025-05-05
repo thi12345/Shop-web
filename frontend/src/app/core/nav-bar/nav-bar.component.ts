@@ -6,12 +6,14 @@ import { IBasket } from '../../shared/models/basket';
 import { CommonModule } from '@angular/common';
 import { IUser } from '../../shared/models/user';
 import { AccountService } from '../../account/account.service';
+import {BsDropdownModule} from 'ngx-bootstrap/dropdown'
 
 @Component({
   selector: 'app-nav-bar',
   standalone: true,
   imports: [RouterModule,
-    CommonModule
+    CommonModule,
+    BsDropdownModule
   ],
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.css'

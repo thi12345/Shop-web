@@ -1,5 +1,5 @@
-using Backend.Data;
 using Backend.Data.Identity;
+using Backend.Data.Store;
 using Backend.Entitities.Identity;
 using Backend.Extensions;
 using Backend.Helpers;
@@ -36,7 +36,7 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(
     c =>
     {
         var configuration = ConfigurationOptions
-        .Parse(builder.Configuration.GetConnectionString("Redis"), true);
+            .Parse(builder.Configuration.GetConnectionString("Redis"), true);
         return ConnectionMultiplexer.Connect(configuration);
     });
 

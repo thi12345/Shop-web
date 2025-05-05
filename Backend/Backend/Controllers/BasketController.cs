@@ -21,11 +21,11 @@ namespace Backend.Controllers
         public async Task<ActionResult<CustomerBasket>> GetBasketById(string id)
         {
             var basket = await _basketRepository.GetBasketAsync(id);
+            
             return Ok(basket ?? new CustomerBasket(id));
         }
         [HttpPost]
-        public async Task<ActionResult<CustomerBasket>> 
-            UpdateBasket(CustomerBasketDto basket)
+        public async Task<ActionResult<CustomerBasket>> UpdateBasket(CustomerBasketDto basket)
         {
             var customerBasket = _mapper.Map<CustomerBasketDto, CustomerBasket>(basket);
 
