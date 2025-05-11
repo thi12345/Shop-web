@@ -1,0 +1,117 @@
+
+
+<div class="mt-4" *ngIf="checkoutForm" [formGroup]="checkoutForm">
+    <div class="d-flex justify-content-between align-items-center">
+        <h4>Shipping address</h4>
+        <button class="btn btn-outline-success mb-3"
+            (click)="saveUserAddress()"
+            [disabled]="!checkoutForm.get('addressForm')?.valid || 
+                !checkoutForm.get('addressForm')?.dirty"
+        >
+        <!-- <button class="btn btn-outline-success mb-3"> -->
+            Save as default address
+        </button>
+    </div>
+
+
+    <div class="row" formGroupName="addressForm">
+        <div class="form-group col-6 mb-3">
+            <input formControlName="firstName" 
+                type="text" 
+                id="firstName" 
+                class="form-control" 
+                placeholder="First name"
+                >
+            <label for="firstName">First name</label>
+            <span class="text-danger" 
+                *ngIf="checkoutForm.get('addressForm')?.get('firstName')?.invalid &&
+                checkoutForm.get('addressForm')?.get('firstName')?.touched
+                ">First name is required</span>
+        </div>
+        <div class="form-group col-6">
+        
+            <input 
+                id="lastName"
+                formControlName="lastName" 
+                type="text" 
+                class="form-control" 
+                placeholder="Last name">
+            <label for="lastName">Last name</label>
+            <span class="text-danger" 
+                *ngIf="checkoutForm.get('addressForm')?.get('lastName')?.invalid &&
+                checkoutForm.get('addressForm')?.get('lastName')?.touched
+                ">Last name is required</span>
+        </div>
+        <div class="form-group col-6">
+            
+            <input 
+                id="street" 
+                formControlName="street" 
+                type="text" class="form-control" 
+                placeholder="Street">
+            <label for="street">Street</label>
+            <span class="text-danger" 
+                *ngIf="checkoutForm.get('addressForm')?.get('street')?.invalid &&
+                checkoutForm.get('addressForm')?.get('street')?.touched
+                ">Street is required</span>
+
+        </div>
+        <div class="form-group col-6">
+            
+            <input 
+                id="city" 
+                formControlName="city" 
+                type="text" 
+                class="form-control" 
+                placeholder="City">
+            <label for="city">City</label>
+            <span class="text-danger" 
+                *ngIf="checkoutForm.get('addressForm')?.get('city')?.invalid &&
+                checkoutForm.get('addressForm')?.get('city')?.touched
+                ">City is required</span>
+        </div>
+        <div class="form-group col-6">
+        
+            <input 
+                id="state"
+                formControlName="state" 
+                type="text" 
+                class="form-control" 
+                placeholder="State">
+            <label for="state">State</label>
+            <span class="text-danger" 
+                *ngIf="checkoutForm.get('addressForm')?.get('state')?.invalid &&
+                checkoutForm.get('addressForm')?.get('state')?.touched
+                ">State is required</span>
+        </div>
+        <div class="form-group col-6">
+            
+            <input 
+            id="zipcode" 
+            formControlName="zipcode" 
+            type="text" 
+            class="form-control" 
+            placeholder="Zip code">
+            <label for="zipcode">Zipcode</label>
+            <span class="text-danger" 
+                *ngIf="checkoutForm.get('addressForm')?.get('zipcode')?.invalid &&
+                checkoutForm.get('addressForm')?.get('zipcode')?.touched
+                ">Zipcode is required</span>
+        </div>
+    </div>
+
+    
+</div>
+
+
+<div class="d-flex justify-content-between flex-row mb-5">
+    <button class="btn btn-outline-primary" routerLink="/basket">
+        <i class="fa fa-angle-left"></i> Back to basket
+    </button>
+    <button [disabled]="checkoutForm?.get('addressForm')?.invalid" class="btn btn-primary" cdkStepperNext>
+        Go to Delivery <i class="fa fa-angle-right"></i> 
+    </button>
+    <!-- <button class="btn btn-primary">
+        Go to Delivery <i class="fa fa-angle-right"></i>
+    </button> -->
+</div>

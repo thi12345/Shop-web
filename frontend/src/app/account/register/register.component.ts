@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AsyncValidatorFn, FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { AccountService } from '../account.service';
 import { Router } from '@angular/router';
-import { TextInputComponent } from '../../core/text-input/text-input.component';
+
 import { CommonModule } from '@angular/common';
 import { map, of, switchMap, timer } from 'rxjs';
 

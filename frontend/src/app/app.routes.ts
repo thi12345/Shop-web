@@ -66,6 +66,12 @@ export const routes: Routes = [
           import('./checkout/checkout.component')
             .then(m => m.CheckoutComponent),
       },
+      {
+        path: 'success',
+        loadComponent: () =>
+          import('./checkout/checkout-success/checkout-success.component')
+            .then(m => m.CheckoutSuccessComponent),
+      }
     ]
   },
   // {path: 'shop/:id',

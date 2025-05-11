@@ -4,6 +4,10 @@ import {v4 as uuid} from 'uuid';
 export interface IBasket {
   id: string
   items: IBasketItem[]
+  clientSecret?: string;
+  paymentIntentId?: string;
+  deliveryMethodId?: number;
+  shippingPrice: number;
 }
 
 export interface IBasketItem {
@@ -18,6 +22,7 @@ export interface IBasketItem {
 export class Basket implements IBasket{
   id = uuid();
   items: IBasketItem[] = [];
+  shippingPrice = 0;
 }
 export interface IBasketTotals{
   shipping: number;

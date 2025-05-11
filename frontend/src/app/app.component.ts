@@ -36,12 +36,12 @@ export class AppComponent implements OnInit {
     private accountService: AccountService
   ) { }
   ngOnInit(): void {
-
+    
     this.loadBasket();
     this.loadCurrentUser();
   }
   loadCurrentUser(){
-    if (isPlatformBrowser(this.platformId)) {
+    // if (isPlatformBrowser(this.platformId)) {
       const token = localStorage.getItem('token');
       // if(token){
         this.accountService.loadCurrentUser(token).subscribe(() =>{
@@ -50,11 +50,11 @@ export class AppComponent implements OnInit {
           console.log(error);
         });
       // }
-    }
+    // }
   }
   loadBasket(){
    
-    if(isPlatformBrowser(this.platformId)){
+    // if(isPlatformBrowser(this.platformId)){
       const basketId = localStorage.getItem('basket_id');
       if (basketId) {
         this.basketService.getBasket(basketId).subscribe(() => {
@@ -63,7 +63,7 @@ export class AppComponent implements OnInit {
         }, error => {
           console.log('eror basking loaded',error);
         })
-      }
+      // }
     }
   }
 
